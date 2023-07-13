@@ -1,0 +1,397 @@
+{
+  "Stanze": [
+    {
+      "Nome": "Ingresso",
+      "Descrizione": "Appena entrato nell'hotel noti che è un hotel modesto, alcune piante e un tappeto mostrano la via per la reception davanti a te.",
+      "Oggetti": [
+        {
+          "Nome": "pianta",
+          "Descrizione": "Una comune pianta da soggiorno, ma comunque elegante.",
+          "Peso": 0,
+          "Raccoglibile": false
+        }
+      ],
+      "Personaggi": [],
+      "Visitata": true,
+      "RichiedeOggetto": false,
+      "Aperta": true,
+      "OggettoRichiesto": null,
+      "X": 0,
+      "Y": 0
+    },
+    {
+      "Nome": "Stanza di H.Holmes",
+      "Descrizione": "Trovi la stanza in pieno disordine, pare sia passato un uragano, vedi una statua di marmo a pezzi vicino alla scrivania, fogli e libri ovunque, è sicuramente successo qualcosa...",
+      "Oggetti": [
+        {
+          "Nome": "Bilancia",
+          "Descrizione": "Una bilancia placcata in ottone, forse si può appoggiare qualcosa sopra di essa.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Statua di marmo",
+          "Descrizione": "Una scultura di marmo molto antica, deve essere costata molto, ma ormai è a pezzi.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Scrivania",
+          "Descrizione": "La scrivania è piena di fogli sparsi, come se fosse passata una folata di vento",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Orologio",
+          "Descrizione": "Un orologio a cucù, pare non funzioni",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Libreria",
+          "Descrizione": "La libreria è mezza vuota, alcuni libri sono a terra, c'è una bilancia al centro di essa, strano..",
+          "Peso": 0,
+          "Raccoglibile": false
+        }
+      ],
+      "Personaggi": [],
+      "Visitata": false,
+      "RichiedeOggetto": true,
+      "Aperta": false,
+      "OggettoRichiesto": {
+        "Nome": "Cacciavite",
+        "Descrizione": "Un cacciavite con punta molto fina.",
+        "Peso": 1,
+        "Raccoglibile": true
+      },
+      "X": 1,
+      "Y": 0
+    },
+    {
+      "Nome": "La tua stanza",
+      "Descrizione": "Entrando nella stanza trovi i tuoi vestiti da lavoro sul letto, è una stanza luminosa ma molto piccola, ma ha tutto l'occorrente per un soggiorno lavorativo.",
+      "Oggetti": [
+        {
+          "Nome": "Scrivania",
+          "Descrizione": "Una scrivania in legno molto pesante, sembra esserci un biglietto sopra",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Comodino",
+          "Descrizione": "Un comodino semplice, serve solo per appoggiarci la lampada.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Biglietto",
+          "Descrizione": "Sul biglietto c'è scritto: Sono la vecchia guardia, ho notato che il capo ha uno strano atteggiamento e molte volte entra nella sua stanza, ma bussando non risponde nessuno, dati gli ultimi avvenimenti mi sono licenziato e ho deciso di lavorare altrove. A sud della stanza del capo ho notato qualcosa di strano.. Spero questo biglietto ti sia utile. Buona Fortuna. ",
+          "Peso": 0,
+          "Raccoglibile": true
+        },
+        {
+          "Nome": "Lampada",
+          "Descrizione": "Lampada molto usurata, non funziona bene la lampadina, dovrebbero cambiarla.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Rasoio",
+          "Descrizione": "Nel bagno c'è un rasoio usato, non credo lo utilizzerò.",
+          "Peso": 1,
+          "Raccoglibile": true
+        },
+        {
+          "Nome": "Torcia",
+          "Descrizione": "Una torcia lasciata dalla precedente guardia.",
+          "Peso": 2,
+          "Raccoglibile": true
+        }
+      ],
+      "Personaggi": [],
+      "Visitata": false,
+      "RichiedeOggetto": true,
+      "Aperta": false,
+      "OggettoRichiesto": {
+        "Nome": "Passpartout",
+        "Descrizione": "Una chiave per aprire tutte le porte, tranne una...",
+        "Peso": 1,
+        "Raccoglibile": true
+      },
+      "X": 1,
+      "Y": 1
+    },
+    {
+      "Nome": "Reception",
+      "Descrizione": "All'arrivo in reception vi trovate accolti da un ambiente accogliente, una signora si trova alla scrivania, ma sta parlando con un signore dalla faccia conosciuta.",
+      "Oggetti": [],
+      "Personaggi": [
+        {
+          "Nome": "Receptionist",
+          "Descrizione": "La receptionist ti accoglie con un sorriso, una ragazza molto raffinata.",
+          "DiscorsoSi": true,
+          "Discorso": "Salve e benvenuto nell'hotel H.Holmes, lei deve essere Paolo la nuova guardia dell'hotel, il capo è al momento impegnato, ma ci pensiamo noi a lasciarle il passpartout, i panni da lavoro può trovarli nella sua stanza, buona permanenza!",
+          "OggettoAssegnato": {
+            "Nome": "Passpartout",
+            "Descrizione": "Una chiave per aprire tutte le porte, tranne una...",
+            "Peso": 1,
+            "Raccoglibile": true
+          }
+        },
+        {
+          "Nome": "Signore",
+          "Descrizione": "Bob sembra molto preoccupato.",
+          "DiscorsoSi": true,
+          "Discorso": "Buonasera io sono Bob, ma mi sembra di averla già vista da qualche parte... Ma certo! Tu sei Paolo, il mio vecchio compagno di scuola.. Non dovrei dirtelo, ma sono qui in incognito per svolgere delle indagini su questo hotel, credo che ci rivedremo presto, soggiornerò qui per un po'.",
+          "OggettoAssegnato": null
+        },
+        {
+          "Nome": "Cameriera",
+          "Descrizione": "La cameriera sembra stia chiedendo informazioni alla receptionist.",
+          "DiscorsoSi": true,
+          "Discorso": "Salve, mi stavo chiedendo dove fosse il capo, avrei bisogno di parlargli.",
+          "OggettoAssegnato": null
+        }
+      ],
+      "Visitata": true,
+      "RichiedeOggetto": false,
+      "Aperta": true,
+      "OggettoRichiesto": null,
+      "X": 0,
+      "Y": 1
+    },
+    {
+      "Nome": "Sala da pranzo",
+      "Descrizione": "La sala da pranzo ha pochi tavoli disposti in fila, da qui puoi intravedere la cucina, il poliziotto sta mangiando seduto ad un tavolo..",
+      "Oggetti": [
+        {
+          "Nome": "Tavolo",
+          "Descrizione": "Il tavolo è apparecchiato elegantemente, posate d'argento e un centro tavola pieno di fiori.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Bicchiere di cristallo",
+          "Descrizione": "Un bicchiere di vetro, sembra fatto a mano.",
+          "Peso": 0,
+          "Raccoglibile": false
+        }
+      ],
+      "Personaggi": [
+        {
+          "Nome": "Poliziotto",
+          "Descrizione": "Bob sta cenando, non disturbarlo più di quanto tu abbia già fatto.",
+          "DiscorsoSi": true,
+          "Discorso": "Ciao Paolo, come va? Sto mangiando al momento, ma non ho troppa fame ho una brutta sensazione, per favore prendi queste chiavi per sicurezza, potrebbero esserti utili..",
+          "OggettoAssegnato": {
+            "Nome": "Chiave stanza poliziotto",
+            "Descrizione": "Una chiave per aprire la stanza del poliziotto",
+            "Peso": 1,
+            "Raccoglibile": true
+          }
+        }
+      ],
+      "Visitata": false,
+      "RichiedeOggetto": true,
+      "Aperta": false,
+      "OggettoRichiesto": {
+        "Nome": "Passpartout",
+        "Descrizione": "Una chiave per aprire tutte le porte, tranne una...",
+        "Peso": 1,
+        "Raccoglibile": true
+      },
+      "X": -1,
+      "Y": 0
+    },
+    {
+      "Nome": "Cucina",
+      "Descrizione": "Un profumo delizioso ti accoglie in cucina, sui fuochi vi è appoggiato un pentolone pieno di sugo che sta cuocendo, ma non c'è nessuno al momento..",
+      "Oggetti": [
+        {
+          "Nome": "Coltello",
+          "Descrizione": "Un coltello affilato e pericoloso, sarebbe meglio lasciarlo qui.",
+          "Peso": 2,
+          "Raccoglibile": true
+        },
+        {
+          "Nome": "Carpaccio di carne",
+          "Descrizione": "Un carpaccio di carne fresco, molto invitante, strano lo abbiano lasciato qui.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Pentola con sugo",
+          "Descrizione": "Una pentola piena di ragù lasciato a sobbollire, sembra delizioso.",
+          "Peso": 0,
+          "Raccoglibile": false
+        }
+      ],
+      "Personaggi": [
+        {
+          "Nome": "Cuoco",
+          "Descrizione": "Il cuoco ti mangia con lo sguardo, meglio non disturbarlo nuovamente...",
+          "DiscorsoSi": true,
+          "Discorso": "Che fai qui dentro? Non è permesso entrare a chi non lavora qua.. Ah, sei la guardia? Perdonami, ma se vuoi fare quel carpaccio te lo regalo io lo strumento adatto a farlo!",
+          "OggettoAssegnato": {
+            "Nome": "Batticarne",
+            "Descrizione": "Un batticarne molto pesante, finalmente puoi preparare il tuo carpaccio!",
+            "Peso": 3,
+            "Raccoglibile": true
+          }
+        }
+      ],
+      "Visitata": false,
+      "RichiedeOggetto": true,
+      "Aperta": false,
+      "OggettoRichiesto": {
+        "Nome": "Passpartout",
+        "Descrizione": "Una chiave per aprire tutte le porte, tranne una...",
+        "Peso": 1,
+        "Raccoglibile": true
+      },
+      "X": -1,
+      "Y": 1
+    },
+    {
+      "Nome": "Stanza Lavanderia/Manutenzione",
+      "Descrizione": "uno sgabuzzino abbastanza angusto, qui vengono tenuti tutti gli utensili dell'hotel e la centralina elettrica generale.",
+      "Oggetti": [
+        {
+          "Nome": "Centralina",
+          "Descrizione": "Una centralina elettrica dell'hotel, c'è un pulsante senza nome..",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Carrello vestiti",
+          "Descrizione": "Un carrello con i vestiti sporchi, sembrano tanti rispetto al numero delle stanze.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Armadietto",
+          "Descrizione": "Un armadietto per gli utensili.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Cacciavite",
+          "Descrizione": "Un cacciavite con punta molto fina.",
+          "Peso": 1,
+          "Raccoglibile": true
+        }
+      ],
+      "Personaggi": [],
+      "Visitata": false,
+      "RichiedeOggetto": true,
+      "Aperta": false,
+      "OggettoRichiesto": {
+        "Nome": "Passpartout",
+        "Descrizione": "Una chiave per aprire tutte le porte, tranne una...",
+        "Peso": 1,
+        "Raccoglibile": true
+      },
+      "X": -1,
+      "Y": 2
+    },
+    {
+      "Nome": "Stanza del poliziotto",
+      "Descrizione": "Quando entri nella stanza capisci che qualcosa non va, dalle coperte alla scrivania è tutto in disordine, deve essere successo qualcosa...",
+      "Oggetti": [
+        {
+          "Nome": "Coperte",
+          "Descrizione": "Le coperte sono tutte disordinate, sembra ci sia stata un' urgenza.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Comodino",
+          "Descrizione": "Un comodino con un cassetto, ha un buco dove inserire una chiave.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Scrivania",
+          "Descrizione": "La scrivania è storta ed ha qualche graffio, strano..",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Pistola",
+          "Descrizione": "Una pistola di servizio, strano non l'abbia portata con se..",
+          "Peso": 2,
+          "Raccoglibile": true
+        }
+      ],
+      "Personaggi": [],
+      "Visitata": false,
+      "RichiedeOggetto": false,
+      "Aperta": true,
+      "OggettoRichiesto": {
+        "Nome": "Chiave stanza poliziotto",
+        "Descrizione": "Una chiave per aprire la stanza del poliziotto",
+        "Peso": 1,
+        "Raccoglibile": true
+      },
+      "X": 1,
+      "Y": 2
+    },
+    {
+      "Nome": "Stanza torture",
+      "Descrizione": "Una volta appoggiato il batticarne e la statuetta sulla bilancia la libreria inizia a girare e trovi un'altra stanza. Entrando nella stanza segreta trovi Holmes che sta facendo a pezzi il poliziotto, che decidi di fare?",
+      "Oggetti": [],
+      "Personaggi": [
+        {
+          "Nome": "Holmes",
+          "Descrizione": "Holmes ha degli occhi persi nel vuoto e noti tutto il suo intento omicida.",
+          "DiscorsoSi": true,
+          "Discorso": "Salve Paolo, come vede sono impegnato. Come osa disturbarmi? Vieni più vicino..",
+          "OggettoAssegnato": null
+        }
+      ],
+      "Visitata": false,
+      "RichiedeOggetto": true,
+      "Aperta": false,
+      "OggettoRichiesto": {
+        "Nome": "Statuetta",
+        "Descrizione": "Una statuetta rappresentante un angelo con una tromba.",
+        "Peso": 3,
+        "Raccoglibile": true
+      },
+      "X": 1,
+      "Y": -1
+    },
+    {
+      "Nome": "Soggiorno",
+      "Descrizione": "Il soggiorno è un ambiente tranquillo, ci sono delle poltrone e dei divani a contornarlo con un camino attaccato alla parete, delle decorazioni con animali imbalsamati sulle pareti.",
+      "Oggetti": [
+        {
+          "Nome": "Statuetta",
+          "Descrizione": "Una statuetta rappresentante un angelo con una tromba.",
+          "Peso": 3,
+          "Raccoglibile": true
+        },
+        {
+          "Nome": "Divano",
+          "Descrizione": "Divano in pelle, sembra molto vecchio la pelle è usurata.",
+          "Peso": 0,
+          "Raccoglibile": false
+        },
+        {
+          "Nome": "Gufo imbalsamato",
+          "Descrizione": "Un gufo imbalsamato, ha uno sguardo abbastanza inquietante",
+          "Peso": 0,
+          "Raccoglibile": false
+        }
+      ],
+      "Personaggi": [],
+      "Visitata": false,
+      "RichiedeOggetto": false,
+      "Aperta": true,
+      "OggettoRichiesto": null,
+      "X": 0,
+      "Y": 2
+    }
+  ],
+  "Inventario": []
+}
