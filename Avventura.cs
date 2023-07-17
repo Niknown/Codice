@@ -198,7 +198,6 @@ namespace Gioco
                 Y = y;
             }
         }
-
         static string InserisciNomeGiocatore()
     {
         PrintSlowly("Benvenuto! Inserisci il tuo nome:");
@@ -229,25 +228,18 @@ namespace Gioco
 
     public class GameSaveData
     {
-        public List<Stanza> Stanze { get; set; }
         public List<Oggetto> Inventario { get; set; }
+        public Coordinate PosizioneCorrente {get; set; }
     }
-            // Save the game state to a JSON file
+        
 
     private static void SaveGame(string fileName)
     {
         GameSaveData saveData = new GameSaveData
         {
-            Stanze = stanze.Values.ToList(),
-            Inventario = inventario
+            PosizioneCorrente = posizioneCorrente,
+            Inventario = inventario,
         };
-
-        saveData.Stanze.ForEach(stanza =>
-        {
-            Coordinate coordinata = FindCoordinateByStanza(stanza);
-            stanza.X = coordinata.X;
-            stanza.Y = coordinata.Y;
-        });
 
         string json = JsonConvert.SerializeObject(saveData, Formatting.Indented);
         File.WriteAllText(fileName, json);
@@ -261,7 +253,7 @@ namespace Gioco
             if (entry.Value == stanza)
                 return entry.Key;
         }
-        return new Coordinate();
+        return new Coordinate(stanza.X, stanza.Y);
     }
     }
 
@@ -274,21 +266,22 @@ namespace Gioco
             string json = File.ReadAllText(fileName);
             GameSaveData saveData = JsonConvert.DeserializeObject<GameSaveData>(json);
             // Restore the game state
-            stanze.Clear();
-            foreach (Stanza stanza in saveData.Stanze)
-        {
-            Coordinate coordinata = new Coordinate(stanza.X, stanza.Y);
-            if (stanze.ContainsKey(coordinata))
-            {
-                // Update the existing stanza object with the loaded data
-                stanze[coordinata] = stanza;
-            }
-            else
-            {
-                // Add a new entry to the dictionary
-                stanze.Add(coordinata, stanza);
-            }
-        }
+            //stanze.Clear();
+        //    foreach (Stanza stanza in saveData.Stanze)
+        //{
+        //    Coordinate coordinata = new Coordinate(stanza.X, stanza.Y);
+        //    if (stanze.ContainsKey(coordinata))
+        //    {
+        //        // Update the existing stanza object with the loaded data
+        //        stanze[coordinata] = stanza;
+        //    }
+        //    else
+        //    {
+        //        // Add a new entry to the dictionary
+        //        stanze.Add(coordinata, stanza);
+        //    }
+        //}
+            posizioneCorrente = saveData.PosizioneCorrente;
             inventario = saveData.Inventario;
 
             Console.WriteLine("Il gioco è stato caricato correttamente.");
@@ -344,7 +337,7 @@ namespace Gioco
                 string nomeGiocatore = InserisciNomeGiocatore();
                 Stanza stanzaStart = new Stanza("Ingresso", "Appena entrato nell'hotel noti che è un hotel modesto, alcune piante e un tappeto mostrano la via per la reception davanti a te.", false, true);
                 stanzaStart.AggiungiOggetto("pianta", "Una comune pianta da soggiorno, ma comunque elegante.", 0, false);
-                stanze.Add(new Coordinate (0, 0), stanzaStart);
+                stanze.TryAdd(new Coordinate(0, 0), stanzaStart);
 
                 Stanza stanzaHolmes = new Stanza("Stanza di H.Holmes", "Trovi la stanza in pieno disordine, pare sia passato un uragano, vedi una statua di marmo a pezzi vicino alla scrivania, fogli e libri ovunque, è sicuramente successo qualcosa...", true, false);
                 stanzaHolmes.AggiungiOggetto("Bilancia", "Una bilancia placcata in ottone, forse si può appoggiare qualcosa sopra di essa.", 0, false);
@@ -353,7 +346,7 @@ namespace Gioco
                 stanzaHolmes.AggiungiOggetto("Orologio","Un orologio a cucù, pare non funzioni", 0, false);
                 stanzaHolmes.AggiungiOggetto("Libreria","La libreria è mezza vuota, alcuni libri sono a terra, c'è una bilancia al centro di essa, strano..", 0, false);
                 stanzaHolmes.OggettoRichiesto = new Oggetto("Cacciavite", "Un cacciavite con punta molto fina.", 1, true);
-                stanze.Add(new Coordinate(1, 0), stanzaHolmes);
+                stanze.TryAdd(new Coordinate(1, 0), stanzaHolmes);
 
                 Stanza stanzaPlayer = new Stanza("La tua stanza", "Entrando nella stanza trovi i tuoi vestiti da lavoro sul letto, è una stanza luminosa ma molto piccola, ma ha tutto l'occorrente per un soggiorno lavorativo.", true, false);
                 stanzaPlayer.AggiungiOggetto("Scrivania", "Una scrivania in legno molto pesante, sembra esserci un biglietto sopra", 0, false);
@@ -363,10 +356,10 @@ namespace Gioco
                 stanzaPlayer.AggiungiOggetto("Rasoio", "Nel bagno c'è un rasoio usato, non credo lo utilizzerò.", 1, true);
                 stanzaPlayer.AggiungiOggetto("Torcia", "Una torcia lasciata dalla precedente guardia.", 2, true);
                 stanzaPlayer.OggettoRichiesto = new Oggetto("Passpartout", "Una chiave per aprire tutte le porte, tranne una...", 1, true);
-                stanze.Add(new Coordinate(1, 1), stanzaPlayer);
+                stanze.TryAdd(new Coordinate(1, 1), stanzaPlayer);
 
                 Stanza stanzaReception = new Stanza("Reception", "All'arrivo in reception vi trovate accolti da un ambiente accogliente, una signora si trova alla scrivania, ma sta parlando con un signore dalla faccia conosciuta.", false, true);
-                stanze.Add(new Coordinate(0, 1), stanzaReception);
+                stanze.TryAdd(new Coordinate(0, 1), stanzaReception);
                 stanzaReception.AggiungiPersonaggio("Receptionist", "La receptionist ti accoglie con un sorriso, una ragazza molto raffinata.",$"Salve e benvenuto nell'hotel H.Holmes, lei deve essere {nomeGiocatore} la nuova guardia dell'hotel, il capo è al momento impegnato, ma ci pensiamo noi a lasciarle il passpartout, i panni da lavoro può trovarli nella sua stanza, buona permanenza!", true, new Oggetto("Passpartout", "Una chiave per aprire tutte le porte, tranne una...", 1, true));
                 stanzaReception.AggiungiPersonaggio("Signore", "Bob sembra molto preoccupato.", $"Buonasera io sono Bob, ma mi sembra di averla già vista da qualche parte... Ma certo! Tu sei {nomeGiocatore}, il mio vecchio compagno di scuola.. Non dovrei dirtelo, ma sono qui in incognito per svolgere delle indagini su questo hotel, credo che ci rivedremo presto, soggiornerò qui per un po'.", true, null);
 
@@ -375,7 +368,7 @@ namespace Gioco
                 stanzaPranzo.AggiungiOggetto("Bicchiere di cristallo","Un bicchiere di vetro, sembra fatto a mano.", 0, false);
                 stanzaPranzo.AggiungiPersonaggio("Poliziotto", "Bob sta cenando, non disturbarlo più di quanto tu abbia già fatto.",$"Ciao {nomeGiocatore}, come va? Sto mangiando al momento, ma non ho troppa fame ho una brutta sensazione, per favore prendi queste chiavi per sicurezza, potrebbero esserti utili..", true, new Oggetto("Chiave stanza poliziotto", "Una chiave per aprire la stanza del poliziotto", 1, true));
                 stanzaPranzo.OggettoRichiesto = new Oggetto("Passpartout", "Una chiave per aprire tutte le porte, tranne una...", 1, true);
-                stanze.Add(new Coordinate(-1, 0), stanzaPranzo);
+                stanze.TryAdd(new Coordinate(-1, 0), stanzaPranzo);
 
                 Stanza stanzaCucina = new Stanza("Cucina", "Un profumo delizioso ti accoglie in cucina, sui fuochi vi è appoggiato un pentolone pieno di sugo che sta cuocendo, ma non c'è nessuno al momento..", true, false);
                 stanzaCucina.AggiungiOggetto("Coltello", "Un coltello affilato e pericoloso, sarebbe meglio lasciarlo qui.", 2, true);
@@ -383,7 +376,7 @@ namespace Gioco
                 stanzaCucina.AggiungiOggetto("Pentola con sugo", "Una pentola piena di ragù lasciato a sobbollire, sembra delizioso.", 0, false);
                 stanzaCucina.AggiungiPersonaggio("Cuoco", "Il cuoco ti mangia con lo sguardo, meglio non disturbarlo nuovamente...", "Che fai qui dentro? Non è permesso entrare a chi non lavora qua.. Ah, sei la guardia? Perdonami, ma se vuoi fare quel carpaccio te lo regalo io lo strumento adatto a farlo!", true, new Oggetto("Batticarne", "Un batticarne molto pesante, finalmente puoi preparare il tuo carpaccio!", 3, true));
                 stanzaCucina.OggettoRichiesto = new Oggetto("Passpartout", "Una chiave per aprire tutte le porte, tranne una...", 1, true);
-                stanze.Add(new Coordinate(-1, 1), stanzaCucina);
+                stanze.TryAdd(new Coordinate(-1, 1), stanzaCucina);
 
                 Stanza stanzaManutenzione = new Stanza("Stanza Lavanderia/Manutenzione", "uno sgabuzzino abbastanza angusto, qui vengono tenuti tutti gli utensili dell'hotel e la centralina elettrica generale.", true, false);
                 stanzaManutenzione.AggiungiOggetto("Centralina", "Una centralina elettrica dell'hotel, c'è un pulsante senza nome..", 0, false);
@@ -391,7 +384,7 @@ namespace Gioco
                 stanzaManutenzione.AggiungiOggetto("Armadietto", "Un armadietto per gli utensili.", 0, false);
                 stanzaManutenzione.AggiungiOggetto("Cacciavite", "Un cacciavite con punta molto fina.", 1, true);
                 stanzaManutenzione.OggettoRichiesto = new Oggetto("Passpartout", "Una chiave per aprire tutte le porte, tranne una...", 1, true);
-                stanze.Add(new Coordinate(-1, 2), stanzaManutenzione);
+                stanze.TryAdd(new Coordinate(-1, 2), stanzaManutenzione);
 
                 Stanza stanzaPoliziotto = new Stanza("Stanza del poliziotto", "Quando entri nella stanza capisci che qualcosa non va, dalle coperte alla scrivania è tutto in disordine, deve essere successo qualcosa...", false, true);
                 stanzaPoliziotto.AggiungiOggetto("Coperte", "Le coperte sono tutte disordinate, sembra ci sia stata un' urgenza.", 0, false);
@@ -399,19 +392,19 @@ namespace Gioco
                 stanzaPoliziotto.AggiungiOggetto("Scrivania", "La scrivania è storta ed ha qualche graffio, strano..", 0, false);
                 stanzaPoliziotto.AggiungiOggetto("Pistola", "Una pistola di servizio, strano non l'abbia portata con se..", 2, true);
                 stanzaPoliziotto.OggettoRichiesto = new Oggetto("Chiave stanza poliziotto", "Una chiave per aprire la stanza del poliziotto", 1, true);
-                stanze.Add(new Coordinate(1, 2), stanzaPoliziotto);
+                stanze.TryAdd(new Coordinate(1, 2), stanzaPoliziotto);
 
                 Stanza stanzaTorture = new Stanza("Stanza torture", "Una volta appoggiato il batticarne e la statuetta sulla bilancia la libreria inizia a girare e trovi un'altra stanza. Entrando nella stanza segreta trovi Holmes che sta facendo a pezzi il poliziotto, che decidi di fare?", true, false);
                 stanzaTorture.OggettoRichiesto = new Oggetto("Batticarne", "Un batticarne molto pesante, finalmente puoi preparare il tuo carpaccio!", 3, true);
                 stanzaTorture.OggettoRichiesto = new Oggetto("Statuetta", "Una statuetta rappresentante un angelo con una tromba.", 3, true);
                 stanzaTorture.AggiungiPersonaggio("Holmes", "Holmes ha degli occhi persi nel vuoto e noti tutto il suo intento omicida.",$"Salve {nomeGiocatore}, come vede sono impegnato. Come osa disturbarmi? Vieni più vicino..", true, null);
-                stanze.Add(new Coordinate(1, -1), stanzaTorture);
+                stanze.TryAdd(new Coordinate(1, -1), stanzaTorture);
 
                 Stanza stanzaSoggiorno = new Stanza("Soggiorno", "Il soggiorno è un ambiente tranquillo, ci sono delle poltrone e dei divani a contornarlo con un camino attaccato alla parete, delle decorazioni con animali imbalsamati sulle pareti.", false, true);
                 stanzaSoggiorno.AggiungiOggetto("Statuetta", "Una statuetta rappresentante un angelo con una tromba.", 3, true);
                 stanzaSoggiorno.AggiungiOggetto("Divano", "Divano in pelle, sembra molto vecchio la pelle è usurata.", 0, false);
                 stanzaSoggiorno.AggiungiOggetto("Gufo imbalsamato", "Un gufo imbalsamato, ha uno sguardo abbastanza inquietante", 0, false);
-                stanze.Add(new Coordinate(0, 2), stanzaSoggiorno);
+                stanze.TryAdd(new Coordinate(0, 2), stanzaSoggiorno);
                 if (SpawnPg == 1)
                 {
                     stanzaStart.AggiungiPersonaggio("Cameriera", "La cameriera sembra essere molto stanca, credo stia andando a casa.",$"Salve, lei deve essere {nomeGiocatore}, piacere di conoscerla ma ho appena staccato da lavoro, magari ci conosceremo meglio in un altro momento.", true, null);
@@ -440,7 +433,6 @@ namespace Gioco
                             PrintSlowly("Sei nella stanza: " + stanzaCorrente.Nome);
                             PrintSlowly("Puoi esaminare gli oggetti (esamina), raccogliere un oggetto (raccogli),rilasciare un oggetto(rilascia) o spostarti in una direzione (nord, est, sud, ovest). Scrivere (aiuto) per altri comandi.");
                             string input = Console.ReadLine().ToLower(); 
-                            Coordinate posizionePrecedente = posizioneCorrente;
                             switch (input)
                             {
                                 case "esamina":
@@ -688,6 +680,7 @@ namespace Gioco
                             }
                             if (!stanze.ContainsKey(posizioneCorrente))
                             {
+                                Coordinate posizionePrecedente = posizioneCorrente;
                                 PrintSlowly("Non puoi andare in questa direzione, la stanza non esiste.");
                                 posizioneCorrente = posizionePrecedente; // Reimposta sulla posizione precedente
                             }
@@ -717,5 +710,4 @@ namespace Gioco
     }
 
 }
-
 
