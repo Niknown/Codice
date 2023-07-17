@@ -1,6 +1,11 @@
 {
-  "Stanze": [
-    {
+  "Inventario": [],
+  "PosizioneCorrente": {
+    "X": 0,
+    "Y": 1
+  },
+  "StanzaSalvataggio": {
+    "Gioco.Coordinate": {
       "Nome": "Ingresso",
       "Descrizione": "Appena entrato nell'hotel noti che è un hotel modesto, alcune piante e un tappeto mostrano la via per la reception davanti a te.",
       "Oggetti": [
@@ -11,7 +16,15 @@
           "Raccoglibile": false
         }
       ],
-      "Personaggi": [],
+      "Personaggi": [
+        {
+          "Nome": "Cameriera",
+          "Descrizione": "La cameriera sembra essere molto stanca, credo stia andando a casa.",
+          "DiscorsoSi": true,
+          "Discorso": "Salve, lei deve essere pippo, piacere di conoscerla ma ho appena staccato da lavoro, magari ci conosceremo meglio in un altro momento.",
+          "OggettoAssegnato": null
+        }
+      ],
       "Visitata": true,
       "RichiedeOggetto": false,
       "Aperta": true,
@@ -19,7 +32,7 @@
       "X": 0,
       "Y": 0
     },
-    {
+    "Gioco.Coordinate": {
       "Nome": "Stanza di H.Holmes",
       "Descrizione": "Trovi la stanza in pieno disordine, pare sia passato un uragano, vedi una statua di marmo a pezzi vicino alla scrivania, fogli e libri ovunque, è sicuramente successo qualcosa...",
       "Oggetti": [
@@ -64,10 +77,10 @@
         "Peso": 1,
         "Raccoglibile": true
       },
-      "X": 1,
+      "X": 0,
       "Y": 0
     },
-    {
+    "Gioco.Coordinate": {
       "Nome": "La tua stanza",
       "Descrizione": "Entrando nella stanza trovi i tuoi vestiti da lavoro sul letto, è una stanza luminosa ma molto piccola, ma ha tutto l'occorrente per un soggiorno lavorativo.",
       "Oggetti": [
@@ -118,10 +131,10 @@
         "Peso": 1,
         "Raccoglibile": true
       },
-      "X": 1,
-      "Y": 1
+      "X": 0,
+      "Y": 0
     },
-    {
+    "Gioco.Coordinate": {
       "Nome": "Reception",
       "Descrizione": "All'arrivo in reception vi trovate accolti da un ambiente accogliente, una signora si trova alla scrivania, ma sta parlando con un signore dalla faccia conosciuta.",
       "Oggetti": [],
@@ -130,7 +143,7 @@
           "Nome": "Receptionist",
           "Descrizione": "La receptionist ti accoglie con un sorriso, una ragazza molto raffinata.",
           "DiscorsoSi": true,
-          "Discorso": "Salve e benvenuto nell'hotel H.Holmes, lei deve essere Paolo la nuova guardia dell'hotel, il capo è al momento impegnato, ma ci pensiamo noi a lasciarle il passpartout, i panni da lavoro può trovarli nella sua stanza, buona permanenza!",
+          "Discorso": "Salve e benvenuto nell'hotel H.Holmes, lei deve essere pippo la nuova guardia dell'hotel, il capo è al momento impegnato, ma ci pensiamo noi a lasciarle il passpartout, i panni da lavoro può trovarli nella sua stanza, buona permanenza!",
           "OggettoAssegnato": {
             "Nome": "Passpartout",
             "Descrizione": "Una chiave per aprire tutte le porte, tranne una...",
@@ -142,14 +155,7 @@
           "Nome": "Signore",
           "Descrizione": "Bob sembra molto preoccupato.",
           "DiscorsoSi": true,
-          "Discorso": "Buonasera io sono Bob, ma mi sembra di averla già vista da qualche parte... Ma certo! Tu sei Paolo, il mio vecchio compagno di scuola.. Non dovrei dirtelo, ma sono qui in incognito per svolgere delle indagini su questo hotel, credo che ci rivedremo presto, soggiornerò qui per un po'.",
-          "OggettoAssegnato": null
-        },
-        {
-          "Nome": "Cameriera",
-          "Descrizione": "La cameriera sembra stia chiedendo informazioni alla receptionist.",
-          "DiscorsoSi": true,
-          "Discorso": "Salve, mi stavo chiedendo dove fosse il capo, avrei bisogno di parlargli.",
+          "Discorso": "Buonasera io sono Bob, ma mi sembra di averla già vista da qualche parte... Ma certo! Tu sei pippo, il mio vecchio compagno di scuola.. Non dovrei dirtelo, ma sono qui in incognito per svolgere delle indagini su questo hotel, credo che ci rivedremo presto, soggiornerò qui per un po'.",
           "OggettoAssegnato": null
         }
       ],
@@ -158,9 +164,9 @@
       "Aperta": true,
       "OggettoRichiesto": null,
       "X": 0,
-      "Y": 1
+      "Y": 0
     },
-    {
+    "Gioco.Coordinate": {
       "Nome": "Sala da pranzo",
       "Descrizione": "La sala da pranzo ha pochi tavoli disposti in fila, da qui puoi intravedere la cucina, il poliziotto sta mangiando seduto ad un tavolo..",
       "Oggetti": [
@@ -182,7 +188,7 @@
           "Nome": "Poliziotto",
           "Descrizione": "Bob sta cenando, non disturbarlo più di quanto tu abbia già fatto.",
           "DiscorsoSi": true,
-          "Discorso": "Ciao Paolo, come va? Sto mangiando al momento, ma non ho troppa fame ho una brutta sensazione, per favore prendi queste chiavi per sicurezza, potrebbero esserti utili..",
+          "Discorso": "Ciao pippo, come va? Sto mangiando al momento, ma non ho troppa fame ho una brutta sensazione, per favore prendi queste chiavi per sicurezza, potrebbero esserti utili..",
           "OggettoAssegnato": {
             "Nome": "Chiave stanza poliziotto",
             "Descrizione": "Una chiave per aprire la stanza del poliziotto",
@@ -200,10 +206,10 @@
         "Peso": 1,
         "Raccoglibile": true
       },
-      "X": -1,
+      "X": 0,
       "Y": 0
     },
-    {
+    "Gioco.Coordinate": {
       "Nome": "Cucina",
       "Descrizione": "Un profumo delizioso ti accoglie in cucina, sui fuochi vi è appoggiato un pentolone pieno di sugo che sta cuocendo, ma non c'è nessuno al momento..",
       "Oggetti": [
@@ -249,10 +255,10 @@
         "Peso": 1,
         "Raccoglibile": true
       },
-      "X": -1,
-      "Y": 1
+      "X": 0,
+      "Y": 0
     },
-    {
+    "Gioco.Coordinate": {
       "Nome": "Stanza Lavanderia/Manutenzione",
       "Descrizione": "uno sgabuzzino abbastanza angusto, qui vengono tenuti tutti gli utensili dell'hotel e la centralina elettrica generale.",
       "Oggetti": [
@@ -291,10 +297,10 @@
         "Peso": 1,
         "Raccoglibile": true
       },
-      "X": -1,
-      "Y": 2
+      "X": 0,
+      "Y": 0
     },
-    {
+    "Gioco.Coordinate": {
       "Nome": "Stanza del poliziotto",
       "Descrizione": "Quando entri nella stanza capisci che qualcosa non va, dalle coperte alla scrivania è tutto in disordine, deve essere successo qualcosa...",
       "Oggetti": [
@@ -333,10 +339,10 @@
         "Peso": 1,
         "Raccoglibile": true
       },
-      "X": 1,
-      "Y": 2
+      "X": 0,
+      "Y": 0
     },
-    {
+    "Gioco.Coordinate": {
       "Nome": "Stanza torture",
       "Descrizione": "Una volta appoggiato il batticarne e la statuetta sulla bilancia la libreria inizia a girare e trovi un'altra stanza. Entrando nella stanza segreta trovi Holmes che sta facendo a pezzi il poliziotto, che decidi di fare?",
       "Oggetti": [],
@@ -345,7 +351,7 @@
           "Nome": "Holmes",
           "Descrizione": "Holmes ha degli occhi persi nel vuoto e noti tutto il suo intento omicida.",
           "DiscorsoSi": true,
-          "Discorso": "Salve Paolo, come vede sono impegnato. Come osa disturbarmi? Vieni più vicino..",
+          "Discorso": "Salve pippo, come vede sono impegnato. Come osa disturbarmi? Vieni più vicino..",
           "OggettoAssegnato": null
         }
       ],
@@ -358,10 +364,10 @@
         "Peso": 3,
         "Raccoglibile": true
       },
-      "X": 1,
-      "Y": -1
+      "X": 0,
+      "Y": 0
     },
-    {
+    "Gioco.Coordinate": {
       "Nome": "Soggiorno",
       "Descrizione": "Il soggiorno è un ambiente tranquillo, ci sono delle poltrone e dei divani a contornarlo con un camino attaccato alla parete, delle decorazioni con animali imbalsamati sulle pareti.",
       "Oggetti": [
@@ -390,8 +396,7 @@
       "Aperta": true,
       "OggettoRichiesto": null,
       "X": 0,
-      "Y": 2
+      "Y": 0
     }
-  ],
-  "Inventario": []
+  }
 }
