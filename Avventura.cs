@@ -27,7 +27,6 @@ namespace Gioco
     {  
         public string Nome { get; set; }       
         public string Descrizione { get; set; }
-        public Personaggio() { }
         public bool DiscorsoSi { get; set; }
         public string Discorso { get; set; }
         
@@ -43,9 +42,18 @@ namespace Gioco
         }
     }
 
+    public struct Coordinate
+        {   
+            public int X { get; set; }
+            public int Y { get; set; }
+            public Coordinate(int x, int y)
+            {
+                X = x;
+                Y = y;
+            }
+        }
     class Stanza
     {
-        
         public string Nome { get; set; }
         
         public string Descrizione { get; set; }
@@ -188,16 +196,6 @@ namespace Gioco
 
     class Program
     {
-       public struct Coordinate
-        {   
-            public int X { get; set; }
-            public int Y { get; set; }
-            public Coordinate(int x, int y)
-            {
-                X = x;
-                Y = y;
-            }
-        }
         static string InserisciNomeGiocatore()
     {
         PrintSlowly("Benvenuto! Inserisci il tuo nome:");
@@ -225,13 +223,12 @@ namespace Gioco
         static Dictionary<Coordinate, Stanza> stanze = new Dictionary<Coordinate, Stanza>();
         static List<Oggetto> inventario = new List<Oggetto>();
         static int pesoLimiteInventario = 10; // Limite di peso dell'inventario
-
     public class GameSaveData
     {
         public List<Oggetto> Inventario { get; set; }
         public Coordinate PosizioneCorrente {get; set; }
+        public Dictionary<Coordinate, Stanza> StanzaSalvataggio { get; set; }
     }
-        
 
     private static void SaveGame(string fileName)
     {
@@ -239,22 +236,13 @@ namespace Gioco
         {
             PosizioneCorrente = posizioneCorrente,
             Inventario = inventario,
+            StanzaSalvataggio = stanze
         };
 
         string json = JsonConvert.SerializeObject(saveData, Formatting.Indented);
         File.WriteAllText(fileName, json);
 
         Console.WriteLine("Il gioco è stato salvato correttamente.");
-
-        static Coordinate FindCoordinateByStanza(Stanza stanza)
-    {
-        foreach (var entry in stanze)
-        {
-            if (entry.Value == stanza)
-                return entry.Key;
-        }
-        return new Coordinate(stanza.X, stanza.Y);
-    }
     }
 
 
@@ -265,22 +253,6 @@ namespace Gioco
         {
             string json = File.ReadAllText(fileName);
             GameSaveData saveData = JsonConvert.DeserializeObject<GameSaveData>(json);
-            // Restore the game state
-            //stanze.Clear();
-        //    foreach (Stanza stanza in saveData.Stanze)
-        //{
-        //    Coordinate coordinata = new Coordinate(stanza.X, stanza.Y);
-        //    if (stanze.ContainsKey(coordinata))
-        //    {
-        //        // Update the existing stanza object with the loaded data
-        //        stanze[coordinata] = stanza;
-        //    }
-        //    else
-        //    {
-        //        // Add a new entry to the dictionary
-        //        stanze.Add(coordinata, stanza);
-        //    }
-        //}
             posizioneCorrente = saveData.PosizioneCorrente;
             inventario = saveData.Inventario;
 
@@ -317,6 +289,7 @@ namespace Gioco
         }
         Console.WriteLine();
     }
+
         static int CalcolaPesoInventario()
         {
             int pesoTotale = 0;
@@ -337,7 +310,7 @@ namespace Gioco
                 string nomeGiocatore = InserisciNomeGiocatore();
                 Stanza stanzaStart = new Stanza("Ingresso", "Appena entrato nell'hotel noti che è un hotel modesto, alcune piante e un tappeto mostrano la via per la reception davanti a te.", false, true);
                 stanzaStart.AggiungiOggetto("pianta", "Una comune pianta da soggiorno, ma comunque elegante.", 0, false);
-                stanze.TryAdd(new Coordinate(0, 0), stanzaStart);
+                stanze.Add(new Coordinate(0, 0), stanzaStart);
 
                 Stanza stanzaHolmes = new Stanza("Stanza di H.Holmes", "Trovi la stanza in pieno disordine, pare sia passato un uragano, vedi una statua di marmo a pezzi vicino alla scrivania, fogli e libri ovunque, è sicuramente successo qualcosa...", true, false);
                 stanzaHolmes.AggiungiOggetto("Bilancia", "Una bilancia placcata in ottone, forse si può appoggiare qualcosa sopra di essa.", 0, false);
@@ -708,6 +681,5 @@ namespace Gioco
             return pesoTotale;
         }
     }
-
+    
 }
-
