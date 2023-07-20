@@ -1,0 +1,642 @@
+7/18/2023 1:54:36 PM - Hai iniziato una nuova partita.
+7/18/2023 2:24:00 PM - Hai iniziato una nuova partita.
+7/18/2023 2:24:03 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 2:24:03 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 2:24:12 PM - Sei nella nuova stanza Ingresso
+7/18/2023 2:24:22 PM - Sei nella nuova stanza Reception
+7/18/2023 2:26:17 PM - Hai iniziato una nuova partita.
+7/18/2023 2:26:24 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 2:26:24 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 2:26:36 PM - Sei nella nuova stanza Ingresso
+7/18/2023 2:26:50 PM - La porta che volevi aprire era chiusa.
+7/18/2023 2:27:00 PM - Hai parlato con Receptionist.
+7/18/2023 2:27:05 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 2:27:11 PM - Sei nella nuova stanza Reception
+7/18/2023 2:27:23 PM - Hai aperto la porta con successo.
+7/18/2023 2:27:56 PM - Sei nella nuova stanza Stanza Lavanderia/Manutenzione
+7/18/2023 2:28:06 PM - Sei nella nuova stanza Soggiorno
+7/18/2023 2:31:42 PM - Hai iniziato una nuova partita.
+7/18/2023 2:31:46 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 2:31:46 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 2:31:53 PM - Sei uscito dalla stanza Ingresso
+7/18/2023 2:32:14 PM - Hai parlato con Receptionist.
+7/18/2023 2:32:18 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 2:32:26 PM - Hai aperto la porta con successo.
+7/18/2023 2:33:17 PM - Hai esaminato gli oggetti nella stanza La tua stanza.
+7/18/2023 2:33:49 PM - Hai raccolto l'oggetto Rasoio.
+7/18/2023 2:33:57 PM - Hai rilasciato l'oggetto Rasoio.
+7/18/2023 2:35:28 PM - Hai iniziato una nuova partita.
+7/18/2023 2:54:40 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 2:54:40 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 2:54:54 PM - Sei uscito dalla stanza Ingresso
+7/18/2023 2:55:11 PM - Hai parlato con Receptionist.
+7/18/2023 2:55:16 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 2:55:31 PM - Hai aperto la porta con successo.
+7/18/2023 2:55:38 PM - Sei entrato nella stanza Reception
+7/18/2023 2:56:31 PM - Hai iniziato una nuova partita.
+7/18/2023 2:56:34 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 2:56:34 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 2:56:41 PM - Hai inserito un comando non valido.
+7/18/2023 3:00:00 PM - Hai iniziato una nuova partita.
+7/18/2023 3:00:03 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:00:03 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:00:09 PM - Sei entrato nella stanza Reception
+7/18/2023 3:00:17 PM - Hai esaminato gli oggetti nella stanza Reception.
+7/18/2023 3:05:41 PM - Hai iniziato una nuova partita.
+7/18/2023 3:05:43 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:05:43 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:06:05 PM - Hai esaminato gli oggetti nella stanza Ingresso.
+7/18/2023 3:06:17 PM - Hai raccolto l'oggetto pianta.
+7/18/2023 3:07:29 PM - Hai iniziato una nuova partita.
+7/18/2023 3:07:32 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:07:32 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:08:54 PM - Hai iniziato una nuova partita.
+7/18/2023 3:08:56 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:08:56 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:13:50 PM - Hai iniziato una nuova partita.
+7/18/2023 3:13:52 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:13:52 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:14:39 PM - Hai iniziato una nuova partita.
+7/18/2023 3:14:41 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:14:41 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:14:49 PM - L'oggetto non è presente nella stanza Ingresso.
+7/18/2023 3:16:40 PM - Hai iniziato una nuova partita.
+7/18/2023 3:16:42 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:16:42 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:18:27 PM - Hai iniziato una nuova partita.
+7/18/2023 3:18:29 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:18:29 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:19:37 PM - Hai iniziato una nuova partita.
+7/18/2023 3:19:40 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:19:40 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:19:47 PM - Non hai trovato personaggi con cui parlare.
+7/18/2023 3:20:42 PM - Hai iniziato una nuova partita.
+7/18/2023 3:20:44 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:20:44 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:20:53 PM - Non hai trovato personaggi con cui parlare.
+7/18/2023 3:21:01 PM - Sei entrato nella stanza Reception
+7/18/2023 3:21:09 PM - Hai parlato con Receptionist.
+7/18/2023 3:21:14 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 3:21:21 PM - Hai parlato con Receptionist.
+7/18/2023 3:22:04 PM - Hai iniziato una nuova partita.
+7/18/2023 3:22:06 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:22:06 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:22:28 PM - Hai iniziato una nuova partita.
+7/18/2023 3:22:30 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 3:22:30 PM - Viene chiamato il metodo IniziaGioco e inizia il gioco vero e proprio.
+7/18/2023 3:22:37 PM - Sei entrato nella stanza Reception
+7/18/2023 3:22:47 PM - Hai parlato con Receptionist.
+7/18/2023 3:22:51 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 4:50:14 PM - Hai inserito un comando non valido.
+7/18/2023 4:50:41 PM - Hai iniziato una nuova partita.
+7/18/2023 4:50:44 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 4:50:44 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 4:50:51 PM - Sei entrato nella stanza Reception
+7/18/2023 4:51:00 PM - Hai parlato con Receptionist.
+7/18/2023 4:51:04 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 4:51:12 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 4:51:22 PM - Hai aperto la porta con successo.
+7/18/2023 4:51:29 PM - Hai esaminato gli oggetti nella stanza Stanza Lavanderia/Manutenzione.
+7/18/2023 4:51:41 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 4:51:48 PM - Hai aperto la porta con successo.
+7/18/2023 4:51:59 PM - L'oggetto non è presente nella stanza Cucina.
+7/18/2023 4:52:05 PM - Hai parlato con Cuoco.
+7/18/2023 4:52:09 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 4:52:16 PM - Hai aperto la porta con successo.
+7/18/2023 4:52:24 PM - Hai parlato con Poliziotto.
+7/18/2023 4:52:27 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 4:52:32 PM - Hai visualizzato l'inventario.
+7/18/2023 4:52:38 PM - Sei entrato nella stanza Ingresso
+7/18/2023 4:52:42 PM - Sei entrato nella stanza Reception
+7/18/2023 4:52:47 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 4:52:51 PM - Sei entrato nella stanza Stanza del poliziotto
+7/18/2023 4:53:22 PM - Hai inserito un comando non valido.
+7/18/2023 4:53:27 PM - Hai visualizzato l'inventario.
+7/18/2023 4:54:04 PM - Hai esaminato gli oggetti nella stanza Stanza del poliziotto.
+7/18/2023 4:54:18 PM - Hai raccolto l'oggetto Pistola.
+7/18/2023 4:54:36 PM - L'oggetto  non è presente nell'inventario.
+7/18/2023 4:54:47 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 4:54:56 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 4:55:02 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 4:55:09 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 4:55:13 PM - Sei entrato nella stanza Reception
+7/18/2023 4:55:18 PM - La porta che volevi aprire era chiusa.
+7/18/2023 4:55:24 PM - Sei entrato nella stanza Ingresso
+7/18/2023 4:55:30 PM - Hai aperto la porta con successo.
+7/18/2023 4:55:42 PM - Hai aperto la porta con successo.
+7/18/2023 4:58:14 PM - Hai iniziato una nuova partita.
+7/18/2023 4:58:16 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 4:58:16 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 4:58:21 PM - Sei entrato nella stanza Reception
+7/18/2023 4:58:26 PM - Hai parlato con Receptionist.
+7/18/2023 4:58:31 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 4:58:37 PM - Hai aperto la porta con successo.
+7/18/2023 4:58:42 PM - Hai parlato con Cuoco.
+7/18/2023 4:58:45 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 4:58:51 PM - Hai aperto la porta con successo.
+7/18/2023 4:58:58 PM - Hai parlato con Poliziotto.
+7/18/2023 4:59:01 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 4:59:05 PM - Sei entrato nella stanza Ingresso
+7/18/2023 4:59:09 PM - Sei entrato nella stanza Reception
+7/18/2023 4:59:12 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 4:59:18 PM - Hai aperto la porta con successo.
+7/18/2023 4:59:25 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 4:59:30 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 4:59:36 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 4:59:41 PM - Hai aperto la porta con successo.
+7/18/2023 4:59:52 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 5:00:02 PM - Hai l'inventario pieno.
+7/18/2023 5:00:07 PM - Hai visualizzato l'inventario.
+7/18/2023 5:00:28 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 5:00:35 PM - Hai raccolto l'oggetto Pistola.
+7/18/2023 5:00:40 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:00:44 PM - Sei entrato nella stanza Reception
+7/18/2023 5:00:48 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:00:55 PM - Hai aperto la porta con successo.
+7/18/2023 5:02:42 PM - Hai iniziato una nuova partita.
+7/18/2023 5:02:44 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:02:44 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 5:05:29 PM - Sei entrato nella stanza Reception
+7/18/2023 5:06:02 PM - Hai iniziato una nuova partita.
+7/18/2023 5:06:04 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:06:04 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 5:06:09 PM - Sei entrato nella stanza Reception
+7/18/2023 5:06:14 PM - Hai parlato con Receptionist.
+7/18/2023 5:06:19 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 5:06:25 PM - Hai aperto la porta con successo.
+7/18/2023 5:06:29 PM - Hai parlato con Cuoco.
+7/18/2023 5:06:33 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 5:06:38 PM - Hai aperto la porta con successo.
+7/18/2023 5:06:43 PM - Hai parlato con Poliziotto.
+7/18/2023 5:06:46 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 5:06:50 PM - Sei entrato nella stanza Cucina
+7/18/2023 5:06:55 PM - Hai aperto la porta con successo.
+7/18/2023 5:07:01 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 5:07:05 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:07:10 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 5:07:16 PM - Hai aperto la porta con successo.
+7/18/2023 5:07:29 PM - L'oggetto  non è presente nell'inventario.
+7/18/2023 5:07:33 PM - Hai inserito un comando non valido.
+7/18/2023 5:07:39 PM - Hai inserito un comando non valido.
+7/18/2023 5:07:47 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 5:07:57 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 5:08:03 PM - Hai raccolto l'oggetto Pistola.
+7/18/2023 5:08:06 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:08:10 PM - Sei entrato nella stanza Reception
+7/18/2023 5:08:14 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:08:21 PM - Hai aperto la porta con successo.
+7/18/2023 5:08:34 PM - Hai aperto la porta con successo.
+7/18/2023 5:09:09 PM - Hai iniziato una nuova partita.
+7/18/2023 5:09:11 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:09:11 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 5:11:49 PM - Hai iniziato una nuova partita.
+7/18/2023 5:11:51 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:11:51 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 5:11:54 PM - Sei entrato nella stanza Reception
+7/18/2023 5:12:00 PM - Hai parlato con Receptionist.
+7/18/2023 5:12:04 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 5:12:08 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:12:15 PM - Hai aperto la porta con successo.
+7/18/2023 5:12:22 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 5:12:27 PM - Hai aperto la porta con successo.
+7/18/2023 5:12:32 PM - Hai parlato con Cuoco.
+7/18/2023 5:12:35 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 5:12:42 PM - Hai aperto la porta con successo.
+7/18/2023 5:12:48 PM - Hai parlato con Poliziotto.
+7/18/2023 5:12:51 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 5:12:55 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:12:58 PM - Sei entrato nella stanza Reception
+7/18/2023 5:13:02 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:13:08 PM - Hai aperto la porta con successo.
+7/18/2023 5:13:15 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 5:13:22 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 5:13:27 PM - Hai raccolto l'oggetto Pistola.
+7/18/2023 5:13:31 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:13:34 PM - Sei entrato nella stanza Reception
+7/18/2023 5:13:38 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:13:43 PM - Hai aperto la porta con successo.
+7/18/2023 5:13:50 PM - La porta che volevi aprire era chiusa.
+7/18/2023 5:13:58 PM - Hai visualizzato l'inventario.
+7/18/2023 5:14:02 PM - La porta che volevi aprire era chiusa.
+7/18/2023 5:14:07 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:14:11 PM - Sei entrato nella stanza Reception
+7/18/2023 5:14:14 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:14:21 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 5:14:24 PM - Sei entrato nella stanza Reception
+7/18/2023 5:14:28 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:14:31 PM - Sei entrato nella stanza Stanza di H.Holmes
+7/18/2023 5:14:38 PM - Hai aperto la porta con successo.
+7/18/2023 5:20:46 PM - Hai iniziato una nuova partita.
+7/18/2023 5:20:48 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:20:48 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 5:20:52 PM - Sei entrato nella stanza Reception
+7/18/2023 5:20:57 PM - Hai parlato con Receptionist.
+7/18/2023 5:21:01 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 5:21:05 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:21:09 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 5:21:14 PM - Hai aperto la porta con successo.
+7/18/2023 5:21:18 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 5:21:24 PM - Hai aperto la porta con successo.
+7/18/2023 5:21:28 PM - Hai parlato con Cuoco.
+7/18/2023 5:21:31 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 5:21:36 PM - Hai aperto la porta con successo.
+7/18/2023 5:21:40 PM - Hai parlato con Poliziotto.
+7/18/2023 5:21:44 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 5:21:48 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:21:51 PM - Sei entrato nella stanza Reception
+7/18/2023 5:21:54 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:22:00 PM - Hai aperto la porta con successo.
+7/18/2023 5:22:05 PM - L'oggetto  non è presente nell'inventario.
+7/18/2023 5:22:16 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 5:22:22 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 5:22:28 PM - L'oggetto non è presente nella stanza Stanza del poliziotto.
+7/18/2023 5:22:33 PM - Hai raccolto l'oggetto Pistola.
+7/18/2023 5:22:37 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:22:40 PM - Sei entrato nella stanza Reception
+7/18/2023 5:22:44 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:22:49 PM - Hai aperto la porta con successo.
+7/18/2023 5:23:11 PM - Hai aperto la porta con successo.
+7/18/2023 5:26:42 PM - Sei entrato nella stanza Stanza di H.Holmes
+7/18/2023 5:34:54 PM - Hai iniziato una nuova partita.
+7/18/2023 5:34:56 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:34:56 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 5:35:01 PM - Sei entrato nella stanza Reception
+7/18/2023 5:35:14 PM - Non hai trovato personaggi con cui parlare.
+7/18/2023 5:35:19 PM - Hai esaminato i personaggi nella stanza Reception.
+7/18/2023 5:35:30 PM - Hai parlato con Receptionist.
+7/18/2023 5:35:34 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 5:35:44 PM - Hai aperto la porta con successo.
+7/18/2023 5:35:56 PM - Non hai trovato personaggi con cui parlare.
+7/18/2023 5:36:07 PM - Sei entrato nella stanza Reception
+7/18/2023 5:36:18 PM - Hai aperto la porta con successo.
+7/18/2023 5:36:24 PM - Hai parlato con Cuoco.
+7/18/2023 5:36:28 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 5:36:35 PM - Hai aperto la porta con successo.
+7/18/2023 5:36:42 PM - Hai parlato con Poliziotto.
+7/18/2023 5:36:45 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 5:36:50 PM - Sei entrato nella stanza Cucina
+7/18/2023 5:36:56 PM - Hai aperto la porta con successo.
+7/18/2023 5:37:07 PM - Hai esaminato gli oggetti nella stanza Stanza Lavanderia/Manutenzione.
+7/18/2023 5:37:25 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 5:37:33 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:37:42 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 5:37:45 PM - Sei entrato nella stanza Stanza Lavanderia/Manutenzione
+7/18/2023 5:37:51 PM - Hai inserito un comando non valido.
+7/18/2023 5:37:55 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:37:59 PM - Hai inserito un comando non valido.
+7/18/2023 5:38:05 PM - Hai aperto la porta con successo.
+7/18/2023 5:38:13 PM - Hai l'inventario pieno.
+7/18/2023 5:38:23 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 5:38:49 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 5:38:56 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:39:00 PM - Sei entrato nella stanza Reception
+7/18/2023 5:39:04 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:39:10 PM - Hai deciso di non aprire la porta con l'oggetto che avevi.
+7/18/2023 5:39:16 PM - Hai aperto la porta con successo.
+7/18/2023 5:39:24 PM - Hai aperto la porta con successo.
+7/18/2023 5:39:49 PM - Hai visualizzato l'inventario.
+7/18/2023 5:40:02 PM - Hai iniziato una nuova partita.
+7/18/2023 5:40:04 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:40:04 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 5:40:08 PM - Sei entrato nella stanza Reception
+7/18/2023 5:40:15 PM - Hai parlato con Receptionist.
+7/18/2023 5:40:19 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 5:40:26 PM - Hai aperto la porta con successo.
+7/18/2023 5:40:30 PM - Sei entrato nella stanza Reception
+7/18/2023 5:40:36 PM - Hai aperto la porta con successo.
+7/18/2023 5:40:43 PM - Hai parlato con Cuoco.
+7/18/2023 5:40:46 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 5:40:57 PM - Hai aperto la porta con successo.
+7/18/2023 5:41:02 PM - Hai parlato con Poliziotto.
+7/18/2023 5:41:06 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 5:41:09 PM - Sei entrato nella stanza Cucina
+7/18/2023 5:41:15 PM - Hai aperto la porta con successo.
+7/18/2023 5:41:26 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 5:41:30 PM - Sei andato nella direzione sbagliata. La stanza non esiste.
+7/18/2023 5:41:40 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:41:50 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 5:41:55 PM - Sei entrato nella stanza Stanza Lavanderia/Manutenzione
+7/18/2023 5:42:00 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:42:06 PM - Hai aperto la porta con successo.
+7/18/2023 5:42:19 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 5:42:37 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 5:42:47 PM - Hai raccolto l'oggetto Pistola.
+7/18/2023 5:42:51 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:42:55 PM - Sei entrato nella stanza Reception
+7/18/2023 5:42:59 PM - Hai visualizzato l'inventario.
+7/18/2023 5:43:03 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:43:07 PM - Sei entrato nella stanza Sala da pranzo
+7/18/2023 5:43:13 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:43:18 PM - Hai aperto la porta con successo.
+7/18/2023 5:43:23 PM - Hai aperto la porta con successo.
+7/18/2023 5:46:41 PM - Hai iniziato una nuova partita.
+7/18/2023 5:46:44 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:52:18 PM - Hai iniziato una nuova partita.
+7/18/2023 5:52:20 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:52:20 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 5:52:24 PM - Sei entrato nella stanza Reception
+7/18/2023 5:52:28 PM - Hai parlato con Receptionist.
+7/18/2023 5:52:32 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 5:52:36 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:52:42 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 5:52:47 PM - Hai aperto la porta con successo.
+7/18/2023 5:52:53 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 5:52:58 PM - Hai aperto la porta con successo.
+7/18/2023 5:53:02 PM - Hai parlato con Cuoco.
+7/18/2023 5:53:06 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 5:53:11 PM - Hai aperto la porta con successo.
+7/18/2023 5:53:15 PM - Hai parlato con Poliziotto.
+7/18/2023 5:53:18 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 5:53:22 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:53:26 PM - Sei entrato nella stanza Reception
+7/18/2023 5:53:29 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:53:34 PM - Hai aperto la porta con successo.
+7/18/2023 5:53:42 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 5:53:50 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 5:53:54 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:53:57 PM - Sei entrato nella stanza Reception
+7/18/2023 5:54:01 PM - Sei entrato nella stanza Ingresso
+7/18/2023 5:54:06 PM - Hai aperto la porta con successo.
+7/18/2023 5:54:17 PM - Hai aperto la porta con successo.
+7/18/2023 5:54:37 PM - Sei entrato nella stanza Stanza di H.Holmes
+7/18/2023 5:59:06 PM - Hai iniziato una nuova partita.
+7/18/2023 5:59:09 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 5:59:09 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 5:59:12 PM - Sei entrato nella stanza Reception
+7/18/2023 5:59:17 PM - Hai parlato con Receptionist.
+7/18/2023 5:59:21 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 5:59:25 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 5:59:29 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 5:59:35 PM - Hai aperto la porta con successo.
+7/18/2023 5:59:40 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 5:59:45 PM - Hai aperto la porta con successo.
+7/18/2023 5:59:49 PM - Hai parlato con Cuoco.
+7/18/2023 5:59:53 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 5:59:58 PM - Hai aperto la porta con successo.
+7/18/2023 6:00:02 PM - Hai parlato con Poliziotto.
+7/18/2023 6:00:05 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 6:00:09 PM - Sei entrato nella stanza Ingresso
+7/18/2023 6:00:12 PM - Sei entrato nella stanza Reception
+7/18/2023 6:00:16 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 6:00:21 PM - Hai aperto la porta con successo.
+7/18/2023 6:00:26 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 6:00:33 PM - Hai inserito un comando non valido.
+7/18/2023 6:00:46 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 6:00:51 PM - Hai raccolto l'oggetto Pistola.
+7/18/2023 6:00:54 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 6:00:58 PM - Sei entrato nella stanza Reception
+7/18/2023 6:01:01 PM - Sei entrato nella stanza Ingresso
+7/18/2023 6:01:07 PM - Hai aperto la porta con successo.
+7/18/2023 6:01:14 PM - Hai aperto la porta con successo.
+7/18/2023 6:04:05 PM - Hai inserito un comando non valido.
+7/18/2023 6:05:59 PM - Hai iniziato una nuova partita.
+7/18/2023 6:06:01 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 6:06:01 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 6:06:28 PM - Sei entrato nella stanza Reception
+7/18/2023 6:10:36 PM - Hai iniziato una nuova partita.
+7/18/2023 6:10:38 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 6:10:38 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 6:10:41 PM - Sei entrato nella stanza Reception
+7/18/2023 6:10:46 PM - Hai parlato con Receptionist.
+7/18/2023 6:10:51 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/18/2023 6:10:54 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 6:10:58 PM - Hai inserito un comando non valido.
+7/18/2023 6:11:08 PM - Hai raccolto l'oggetto Statuetta.
+7/18/2023 6:11:13 PM - Hai aperto la porta con successo.
+7/18/2023 6:11:18 PM - Hai raccolto l'oggetto Cacciavite.
+7/18/2023 6:11:23 PM - Hai aperto la porta con successo.
+7/18/2023 6:11:27 PM - Hai parlato con Cuoco.
+7/18/2023 6:11:31 PM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/18/2023 6:11:35 PM - Hai deciso di non aprire la porta con l'oggetto che avevi.
+7/18/2023 6:11:39 PM - Hai inserito un comando non valido.
+7/18/2023 6:11:43 PM - Sei entrato nella stanza Reception
+7/18/2023 6:11:47 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 6:11:50 PM - Sei andato nella direzione sbagliata. La stanza non esiste.
+7/18/2023 6:11:55 PM - La porta che volevi aprire era chiusa.
+7/18/2023 6:11:59 PM - Hai inserito un comando non valido.
+7/18/2023 6:12:06 PM - Sei entrato nella stanza Stanza Lavanderia/Manutenzione
+7/18/2023 6:12:10 PM - Sei entrato nella stanza Cucina
+7/18/2023 6:12:15 PM - Hai deciso di non aprire la porta con l'oggetto che avevi.
+7/18/2023 6:12:26 PM - Hai aperto la porta con successo.
+7/18/2023 6:12:33 PM - Hai parlato con Poliziotto.
+7/18/2023 6:12:37 PM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/18/2023 6:12:40 PM - Sei entrato nella stanza Ingresso
+7/18/2023 6:12:44 PM - Sei entrato nella stanza Reception
+7/18/2023 6:12:47 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 6:12:56 PM - Hai aperto la porta con successo.
+7/18/2023 6:13:06 PM - Hai rilasciato l'oggetto Passpartout.
+7/18/2023 6:13:15 PM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/18/2023 6:13:21 PM - Sei entrato nella stanza Soggiorno
+7/18/2023 6:13:25 PM - Sei entrato nella stanza Reception
+7/18/2023 6:13:29 PM - Sei entrato nella stanza Ingresso
+7/18/2023 6:13:34 PM - Hai aperto la porta con successo.
+7/18/2023 6:13:40 PM - Hai aperto la porta con successo.
+7/18/2023 6:38:41 PM - Hai iniziato una nuova partita.
+7/18/2023 6:38:44 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 6:38:44 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 6:43:45 PM - Hai iniziato una nuova partita.
+7/18/2023 6:54:49 PM - Hai iniziato una nuova partita.
+7/18/2023 6:54:52 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/18/2023 6:54:52 PM - Viene chiamato il metodo IniziaGioco.
+7/18/2023 6:54:58 PM - Sei entrato nella stanza Reception
+7/19/2023 12:00:39 AM - Hai iniziato una nuova partita.
+7/19/2023 12:00:45 AM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 12:00:45 AM - Viene chiamato il metodo IniziaGioco.
+7/19/2023 12:01:29 AM - L'oggetto non è presente nella stanza Ingresso.
+7/19/2023 12:01:38 AM - Hai esaminato gli oggetti nella stanza Ingresso.
+7/19/2023 12:01:55 AM - Sei entrato nella stanza Reception
+7/19/2023 12:02:10 AM - Hai richiesto un helper per i comandi.
+7/19/2023 12:02:30 AM - Hai esaminato i personaggi nella stanza Reception.
+7/19/2023 12:02:56 AM - Hai parlato con Signore.
+7/19/2023 12:03:37 AM - Hai parlato con Receptionist.
+7/19/2023 12:03:42 AM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/19/2023 12:04:14 AM - Hai aperto la porta con successo.
+7/19/2023 12:04:39 AM - Hai esaminato gli oggetti nella stanza La tua stanza.
+7/19/2023 12:05:24 AM - Hai inserito un comando non valido.
+7/19/2023 12:06:04 AM - Hai raccolto l'oggetto Torcia.
+7/19/2023 12:06:15 AM - Sei entrato nella stanza Reception
+7/19/2023 12:06:22 AM - Sei entrato nella stanza Ingresso
+7/19/2023 12:06:37 AM - Hai aperto la porta con successo.
+7/19/2023 12:06:55 AM - Hai esaminato gli oggetti nella stanza Sala da pranzo.
+7/19/2023 12:07:23 AM - Hai parlato con Poliziotto.
+7/19/2023 12:07:28 AM - Hai ottenuto l'oggetto Chiave stanza poliziotto da Poliziotto.
+7/19/2023 12:08:24 AM - Sei entrato nella stanza Ingresso
+7/19/2023 12:08:31 AM - La porta che volevi aprire era chiusa.
+7/19/2023 12:08:41 AM - Sei entrato nella stanza Sala da pranzo
+7/19/2023 12:08:52 AM - Hai aperto la porta con successo.
+7/19/2023 12:09:22 AM - Hai inserito un comando non valido.
+7/19/2023 12:09:36 AM - Hai esaminato gli oggetti nella stanza Cucina.
+7/19/2023 12:10:11 AM - Hai esaminato i personaggi nella stanza Cucina.
+7/19/2023 12:10:22 AM - Hai parlato con Cuoco.
+7/19/2023 12:10:25 AM - Hai ottenuto l'oggetto Batticarne da Cuoco.
+7/19/2023 12:11:28 AM - Hai aperto la porta con successo.
+7/19/2023 12:11:38 AM - Hai esaminato gli oggetti nella stanza Stanza Lavanderia/Manutenzione.
+7/19/2023 12:12:04 AM - Sei andato nella direzione sbagliata. La stanza non esiste.
+7/19/2023 12:12:10 AM - Sei entrato nella stanza Cucina
+7/19/2023 12:12:15 AM - Sei entrato nella stanza Sala da pranzo
+7/19/2023 12:12:24 AM - Sei entrato nella stanza Ingresso
+7/19/2023 12:12:38 AM - Sei entrato nella stanza Reception
+7/19/2023 12:12:51 AM - Sei entrato nella stanza La tua stanza
+7/19/2023 12:12:57 AM - Sei entrato nella stanza Reception
+7/19/2023 12:13:03 AM - Sei entrato nella stanza Cucina
+7/19/2023 12:13:10 AM - Sei entrato nella stanza Reception
+7/19/2023 12:13:16 AM - Sei entrato nella stanza Soggiorno
+7/19/2023 12:13:28 AM - Hai esaminato gli oggetti nella stanza Soggiorno.
+7/19/2023 12:13:38 AM - Sei andato nella direzione sbagliata. La stanza non esiste.
+7/19/2023 12:13:48 AM - Hai aperto la porta con successo.
+7/19/2023 12:13:57 AM - Hai esaminato gli oggetti nella stanza Stanza del poliziotto.
+7/19/2023 12:14:37 AM - Hai raccolto l'oggetto Pistola.
+7/19/2023 12:14:46 AM - Sei andato nella direzione sbagliata. La stanza non esiste.
+7/19/2023 12:14:55 AM - Sei entrato nella stanza Soggiorno
+7/19/2023 12:16:37 AM - Sei entrato nella stanza Reception
+7/19/2023 12:16:45 AM - Sei entrato nella stanza La tua stanza
+7/19/2023 12:16:51 AM - La porta che volevi aprire era chiusa.
+7/19/2023 12:20:59 AM - Hai inserito un comando non valido.
+7/19/2023 12:21:08 AM - Sei entrato nella stanza Reception
+7/19/2023 12:21:13 AM - Sei entrato nella stanza La tua stanza
+7/19/2023 12:21:20 AM - Sei entrato nella stanza Reception
+7/19/2023 12:21:25 AM - Sei entrato nella stanza Cucina
+7/19/2023 12:21:31 AM - Sei entrato nella stanza Stanza Lavanderia/Manutenzione
+7/19/2023 12:21:37 AM - Hai esaminato gli oggetti nella stanza Stanza Lavanderia/Manutenzione.
+7/19/2023 12:21:56 AM - Hai l'inventario pieno.
+7/19/2023 12:22:07 AM - Hai visualizzato l'inventario.
+7/19/2023 12:23:08 AM - Hai rilasciato l'oggetto Chiave stanza poliziotto.
+7/19/2023 12:23:19 AM - Hai raccolto l'oggetto Cacciavite.
+7/19/2023 12:23:27 AM - Sei entrato nella stanza Cucina
+7/19/2023 12:23:32 AM - Sei entrato nella stanza Reception
+7/19/2023 12:23:36 AM - Sei entrato nella stanza La tua stanza
+7/19/2023 12:23:45 AM - Hai aperto la porta con successo.
+7/19/2023 12:23:57 AM - Hai esaminato gli oggetti nella stanza Stanza di H.Holmes.
+7/19/2023 12:24:52 AM - La porta che volevi aprire era chiusa.
+7/19/2023 12:26:33 AM - Sei entrato nella stanza La tua stanza
+7/19/2023 12:26:41 AM - Sei entrato nella stanza Stanza del poliziotto
+7/19/2023 12:26:46 AM - Sei entrato nella stanza Soggiorno
+7/19/2023 12:26:51 AM - Hai esaminato gli oggetti nella stanza Soggiorno.
+7/19/2023 12:27:04 AM - Hai l'inventario pieno.
+7/19/2023 12:27:24 AM - Hai visualizzato l'inventario.
+7/19/2023 12:27:43 AM - Hai rilasciato l'oggetto Cacciavite.
+7/19/2023 12:27:52 AM - Hai l'inventario pieno.
+7/19/2023 12:28:05 AM - Hai rilasciato l'oggetto Torcia.
+7/19/2023 12:28:13 AM - Hai raccolto l'oggetto Statuetta.
+7/19/2023 12:28:19 AM - Sei entrato nella stanza Stanza del poliziotto
+7/19/2023 12:28:23 AM - Sei entrato nella stanza La tua stanza
+7/19/2023 12:28:27 AM - Sei entrato nella stanza Stanza di H.Holmes
+7/19/2023 12:28:33 AM - Hai esaminato gli oggetti nella stanza Stanza di H.Holmes.
+7/19/2023 12:28:46 AM - Hai inserito un comando non valido.
+7/19/2023 12:28:55 AM - Hai aperto la porta con successo.
+7/19/2023 11:30:16 AM - Hai iniziato una nuova partita.
+7/19/2023 11:30:18 AM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 11:30:18 AM - Viene chiamato il metodo IniziaGioco.
+7/19/2023 11:30:26 AM - Hai salvato la partita correttamente.
+7/19/2023 12:49:05 PM - Hai iniziato una nuova partita.
+7/19/2023 12:49:07 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 12:49:07 PM - Viene chiamato il metodo StartGame.
+7/19/2023 12:49:14 PM - Hai salvato la partita correttamente.
+7/19/2023 12:50:44 PM - Hai iniziato una nuova partita.
+7/19/2023 12:50:46 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 12:50:46 PM - Viene chiamato il metodo StartGame.
+7/19/2023 12:50:54 PM - Hai salvato la partita correttamente.
+7/19/2023 12:56:12 PM - Hai iniziato una nuova partita.
+7/19/2023 12:56:14 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 12:56:14 PM - Viene chiamato il metodo StartGame.
+7/19/2023 12:56:20 PM - Hai salvato la partita correttamente.
+7/19/2023 12:56:26 PM - Sei uscito dal gioco.
+7/19/2023 1:21:22 PM - Hai iniziato una nuova partita.
+7/19/2023 1:21:24 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 1:21:24 PM - Viene chiamato il metodo StartGame.
+7/19/2023 1:21:33 PM - Hai salvato la partita correttamente.
+7/19/2023 1:21:51 PM - Hai caricato il gioco correttamente.
+7/19/2023 1:23:42 PM - Hai caricato il gioco correttamente.
+7/19/2023 1:26:08 PM - Hai caricato il gioco correttamente.
+7/19/2023 1:27:30 PM - Hai caricato il gioco correttamente.
+7/19/2023 1:27:31 PM - paolo
+7/19/2023 1:28:25 PM - Hai caricato il gioco correttamente.
+7/19/2023 1:28:25 PM - Hai iniziato una nuova partita.
+7/19/2023 1:28:29 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 1:28:29 PM - Viene chiamato il metodo StartGame.
+7/19/2023 1:28:29 PM - paolo
+7/19/2023 1:28:40 PM - Sei entrato nella stanza Reception
+7/19/2023 1:29:41 PM - Hai parlato con Receptionist.
+7/19/2023 1:29:46 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/19/2023 1:29:49 PM - Hai salvato la partita correttamente.
+7/19/2023 1:29:55 PM - Sei uscito dal gioco.
+7/19/2023 1:30:06 PM - Hai caricato il gioco correttamente.
+7/19/2023 1:30:07 PM - Hai iniziato una nuova partita.
+7/19/2023 1:30:10 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 1:30:10 PM - Viene chiamato il metodo StartGame.
+7/19/2023 1:30:10 PM - paolo
+7/19/2023 1:30:16 PM - Hai visualizzato l'inventario.
+7/19/2023 1:30:24 PM - Hai parlato con Receptionist.
+7/19/2023 1:34:46 PM - Hai salvato la partita correttamente.
+7/19/2023 1:34:59 PM - Hai caricato il gioco correttamente.
+7/19/2023 1:35:00 PM - Hai iniziato una nuova partita.
+7/19/2023 1:35:04 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 1:35:04 PM - Viene chiamato il metodo StartGame.
+7/19/2023 1:35:04 PM - paolo
+7/19/2023 1:35:15 PM - Hai visualizzato l'inventario.
+7/19/2023 3:20:46 PM - Hai iniziato una nuova partita.
+7/19/2023 3:20:48 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 3:20:49 PM - Viene chiamato il metodo StartGame.
+7/19/2023 3:20:49 PM - paolo
+7/19/2023 3:21:02 PM - Sei entrato nella stanza Reception
+7/19/2023 3:21:11 PM - Hai parlato con Receptionist.
+7/19/2023 3:21:15 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/19/2023 3:25:14 PM - Hai iniziato una nuova partita.
+7/19/2023 3:25:16 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 3:25:16 PM - Viene chiamato il metodo StartGame.
+7/19/2023 3:25:16 PM - paolo
+7/19/2023 3:25:22 PM - Sei entrato nella stanza Reception
+7/19/2023 3:25:29 PM - Hai parlato con Receptionist.
+7/19/2023 3:25:33 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/19/2023 3:25:38 PM - Hai visualizzato l'inventario.
+7/19/2023 3:26:21 PM - Sei entrato nella stanza Soggiorno
+7/19/2023 3:26:33 PM - Hai raccolto l'oggetto Statuetta.
+7/19/2023 3:26:40 PM - Hai rilasciato l'oggetto Passpartout.
+7/19/2023 3:26:44 PM - Hai salvato la partita correttamente.
+7/19/2023 3:26:51 PM - Sei uscito dal gioco.
+7/19/2023 3:27:03 PM - Hai caricato il gioco correttamente.
+7/19/2023 3:27:04 PM - Hai iniziato una nuova partita.
+7/19/2023 3:27:06 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 3:27:06 PM - Viene chiamato il metodo StartGame.
+7/19/2023 3:27:06 PM - paolo
+7/19/2023 3:27:10 PM - Hai esaminato gli oggetti nella stanza Soggiorno.
+7/19/2023 3:29:40 PM - Hai caricato il gioco correttamente.
+7/19/2023 3:29:41 PM - Hai iniziato una nuova partita.
+7/19/2023 3:29:44 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 3:29:44 PM - Viene chiamato il metodo StartGame.
+7/19/2023 3:29:44 PM - paolo
+7/19/2023 3:48:31 PM - Hai iniziato una nuova partita.
+7/19/2023 3:48:33 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 3:48:33 PM - Viene chiamato il metodo StartGame.
+7/19/2023 3:48:33 PM - paolo
+7/19/2023 3:48:39 PM - Sei entrato nella stanza Reception
+7/19/2023 3:48:46 PM - Sei entrato nella stanza Soggiorno
+7/19/2023 3:48:57 PM - L'oggetto non è presente nella stanza Soggiorno.
+7/19/2023 3:49:04 PM - Hai esaminato gli oggetti nella stanza Soggiorno.
+7/19/2023 3:53:00 PM - Hai iniziato una nuova partita.
+7/19/2023 3:53:02 PM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/19/2023 3:53:02 PM - Viene chiamato il metodo StartGame.
+7/19/2023 3:53:02 PM - paolo
+7/19/2023 3:53:09 PM - Sei entrato nella stanza Reception
+7/19/2023 3:53:18 PM - Hai parlato con Receptionist.
+7/19/2023 3:53:23 PM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/19/2023 3:53:44 PM - Sei entrato nella stanza Soggiorno
+7/19/2023 3:53:56 PM - Hai raccolto l'oggetto Statuetta.
+7/19/2023 3:54:05 PM - Hai rilasciato l'oggetto Passpartout.
+7/19/2023 3:54:10 PM - Hai salvato la partita correttamente.
+7/19/2023 3:54:24 PM - Hai caricato il gioco correttamente.
+7/19/2023 3:54:24 PM - Hai iniziato una nuova partita.
+7/19/2023 3:54:27 PM - Viene chiamato il metodo StartGame.
+7/19/2023 3:54:27 PM - paolo
+7/19/2023 3:54:33 PM - Hai esaminato gli oggetti nella stanza Soggiorno.
+7/19/2023 3:54:43 PM - Hai visualizzato l'inventario.
+7/20/2023 11:07:01 AM - Hai iniziato una nuova partita.
+7/20/2023 11:07:04 AM - Vengono instanziate le stanze, i personaggi e gli oggetti.
+7/20/2023 11:07:04 AM - Viene chiamato il metodo StartGame.
+7/20/2023 11:07:04 AM - paolo
+7/20/2023 11:07:10 AM - Sei entrato nella stanza Reception
+7/20/2023 11:07:19 AM - Hai parlato con Receptionist.
+7/20/2023 11:07:23 AM - Hai ottenuto l'oggetto Passpartout da Receptionist.
+7/20/2023 11:07:30 AM - Hai aperto la porta con successo.
+7/20/2023 11:08:22 AM - L'oggetto non è presente nella stanza La tua stanza.
+7/20/2023 11:08:26 AM - Hai esaminato gli oggetti nella stanza La tua stanza.
